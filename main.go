@@ -1,9 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
-	message := "GO LANG"
-
+	var message string
+	var number int
+	
+	
 	fmt.Println(message)
+	fmt.Println(number)
 }
